@@ -1,0 +1,15 @@
+package posto.pessoas;
+
+public class Funcionario {
+
+	public String nome;
+	public static String enderecoPosto = "São Paulo";
+	public String enderecoFuncionario;
+	double saldoConta;
+	
+	void trabalhar(Bonus bonus) {
+		saldoConta += bonus.valorDoTrabalho;
+	}
+	
+	
+}
